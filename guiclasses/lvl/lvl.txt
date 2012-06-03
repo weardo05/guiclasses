@@ -1,7 +1,0 @@
-T 1254 f pic/fire.txt Q 0 0 0
-T 254 g pic/grass.txt E 0 0 0
-T 254 g pic/grass.txt E 0 0 0
-T 254 g pic/grass.txt E 0 0 0
-T 254 g pic/grass.txt E 0 0 0
-T 3222 D pic/door.txt F 3 2 3
-T 1254 R pic/fire.txt Q 0 0 0

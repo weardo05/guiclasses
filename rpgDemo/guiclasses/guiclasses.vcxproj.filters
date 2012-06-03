@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ENGINE">
+      <UniqueIdentifier>{06ba65a8-2ed2-4ef3-813a-66bc224aa0ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\mob">
+      <UniqueIdentifier>{0b30235f-3a2f-49df-8e1a-6c53b66a61b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battle">
+      <UniqueIdentifier>{147673a3-b41a-4a3e-a62d-13ac02e8dd60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\worldclasses">
+      <UniqueIdentifier>{00df8042-8bfe-4452-9d65-2759223f1d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{189662b9-e0b6-4af6-8f1c-1f4ccdaa6a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\lvl">
+      <UniqueIdentifier>{3a131402-6c23-44f1-9e5e-de8125e4df15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>Source Files\worldclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source Files\worldclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="generator.cpp">
+      <Filter>Source Files\ENGINE</Filter>
+    </ClCompile>
+    <ClCompile Include="sTate.cpp">
+      <Filter>Source Files\worldclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.cpp">
+      <Filter>Source Files\worldclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="dot.cpp">
+      <Filter>Source Files\worldclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="bag.cpp">
+      <Filter>Source Files\worldclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="lvlCell.cpp">
+      <Filter>Source Files\worldclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="battle.cpp">
+      <Filter>Source Files\ENGINE</Filter>
+    </ClCompile>
+    <ClCompile Include="bScrenn.cpp">
+      <Filter>Source Files\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="mob.cpp">
+      <Filter>Source Files\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="nMove.cpp">
+      <Filter>Source Files\battle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myGui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bAttle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mob\mob1.txt">
+      <Filter>Resource Files\mob</Filter>
+    </None>
+    <None Include="mob\mob2.txt">
+      <Filter>Resource Files\mob</Filter>
+    </None>
+    <None Include="mob\mobaddress.txt">
+      <Filter>Resource Files\mob</Filter>
+    </None>
+    <None Include="lvl\lvle.txt">
+      <Filter>Resource Files\lvl</Filter>
+    </None>
+    <None Include="lvl\lvl1.txt">
+      <Filter>Resource Files\lvl</Filter>
+    </None>
+    <None Include="player.txt">
+      <Filter>Resource Files\mob</Filter>
+    </None>
+    <None Include="lvl\lvl2.txt">
+      <Filter>Resource Files\lvl</Filter>
+    </None>
+    <None Include="lvl\lvl3.txt">
+      <Filter>Resource Files\lvl</Filter>
+    </None>
+  </ItemGroup>
+</Project>

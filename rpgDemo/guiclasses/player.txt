@@ -1,0 +1,6 @@
+240 240 fightpic/player.png
+stab 25 5
+drain 27 4
+deathsTouch 24 1
+hackNSlash 25 5
+physical 23 0

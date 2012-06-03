@@ -1,0 +1,2 @@
+0 mob/mob1.txt
+1 mob/mob2.txt

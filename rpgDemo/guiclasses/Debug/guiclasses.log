@@ -1,0 +1,17 @@
+﻿Build started 6/2/2012 6:13:47 PM.
+     1>Project "C:\Users\Nathan\Desktop\wsu_classes\club\Projects\rpgDemo\guiclasses\guiclasses.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\guiclasses.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         guiclasses.vcxproj -> C:\Users\Nathan\Desktop\wsu_classes\club\Projects\rpgDemo\Debug\guiclasses.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\guiclasses.unsuccessfulbuild".
+         Touching "Debug\guiclasses.lastbuildstate".
+     1>Done Building Project "C:\Users\Nathan\Desktop\wsu_classes\club\Projects\rpgDemo\guiclasses\guiclasses.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.25

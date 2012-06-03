@@ -1,0 +1,6 @@
+60 60 mobpic/mob1.bmp
+bite 15 5
+kick 17 4
+lick 14 1
+tenctcaleSlash 15 5
+physical 13 0

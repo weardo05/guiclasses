@@ -1,0 +1,14 @@
+n 2 50 52 pic/rock.bmp w 0 0 N 4 4
+u 2 20 23 E w 0 0 N 4 4
+u 2 20 24 E w 0 0 N 4 4
+u 2 20 25 E w 0 0 N 4 4
+u 2 20 26 E w 0 0 N 4 4
+u 2 20 37 E w 0 0 N 4 4
+u 2 20 48 E w 0 0 N 4 4
+u 2 20 9 E w 0 0 N 4 4
+u 2 3 28 E w 0 0 N 4 4
+u 2 3 29 E w 0 0 N 4 4
+u 2 3 30 E w 0 0 N 4 4
+u 2 4 2 E w 0 0 N 4 4
+u 2 4 2 E w 0 0 N 4 4
+n 1 24 23 pic/portal.png d 200 200 lvl/lvl3.txt 4 4
