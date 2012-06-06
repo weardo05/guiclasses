@@ -159,21 +159,23 @@ char fight()
 					{
 						life = nBattle.battleHandler(4,eMove);
 					}
-					if( ( x > (box.x) ) && ( x < (box.x + box.w )) && ( y > (box.y + box.h + 30) ) && ( y < (box.y + 30) + (2 * box.h) ) )
+					if( ( x > (box.x) ) && ( x < (box.x + box.w )) && ( y > (box.y + box.h) ) && ( y < (box.y) + (2 * box.h) ) )
 					{
 						menu = true;
 						nBattle.fight.blit(loadImage("fightpic/specialMenu.png"),-160,-422);
+						nBattle.fight.fLip();
 					}
 					if(menu == true)
 					{
-						if( ( x > box.x + box.w ) && ( x < box.x + box.w ) && ( y > box.y + box.h + 20 ) && ( y < box.y + 20) )
+						if( ( x > box.x + box.w ) && ( x < box.x + (2 * box.w) ) && ( y > box.y) && ( y < box.y + box.h) )
 						{life = nBattle.battleHandler(0,eMove);}
-						if( ( x > box.x + box.w ) && ( x < box.x +  box.w ) && ( y > box.y + box.h + 20 ) && ( y < box.y + ( box.h) + 20) )
+						if( ( x > box.x + box.w ) && ( x < box.x + (2 * box.w) )  && ( y > box.y + box.h) && ( y < box.y + (2* box.h)) )
 						{life = nBattle.battleHandler(1,eMove);}
-						if( ( x > box.x + box.w ) && ( x < box.x + box.w ) && ( y > box.y + box.h + 20 ) && ( y < box.y + (2* box.h) + 20) )
+						if( ( x > box.x + box.w ) && ( x < box.x + (2 * box.w) ) && ( y > box.y + (2* box.h)) && ( y < box.y + (3* box.h)) )
 						{life = nBattle.battleHandler(2,eMove);}
-						if( ( x > box.x + box.w ) && ( x < box.x + box.w ) && ( y > box.y + box.h + 20 ) && ( y < box.y +  (3* box.h) + 20) )
+						if( ( x > box.x + box.w ) && ( x < box.x + (2 * box.w) ) && ( y > box.y + (3* box.h)) && ( y < box.y +  (4* box.h)) )
 						{life = nBattle.battleHandler(3,eMove);}
+
 					}
 				}
 			}
